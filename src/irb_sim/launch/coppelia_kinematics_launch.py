@@ -36,6 +36,6 @@ def generate_launch_description():
     app_path = os.path.join(COPPELIA_PATH, "../MacOS/coppeliaSim")
 
     return LaunchDescription([
-        actions.ExecuteProcess(cmd=["sudo", app_path, scene_path]) # Just open coppelia via CMD with scene
+        actions.ExecuteProcess(cmd=[app_path, scene_path, "-s0"], output="screen",emulate_tty=True,) # Just open coppelia via CMD with scene
     ])
 
