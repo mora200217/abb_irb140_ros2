@@ -26,7 +26,11 @@ endif()
 # Install launch files.
 install(DIRECTORY
   launch
+  config
+  urdf
+  meshes
   DESTINATION share/${PROJECT_NAME}/
 )
+
 
 ament_package()
