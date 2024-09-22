@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/usr/local/Caskroom/miniforge/base/envs/ros-humble/include/**",
+        "/Users/amoralesma/Desktop/abb_irb140_ros2/src/irb_control/include/**",
+        "/Users/amoralesma/Desktop/abb_irb140_ros2/src/irb_coppelia/include/**",
+        "/Users/amoralesma/Desktop/abb_irb140_ros2/src/irb_description/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
