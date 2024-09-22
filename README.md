@@ -29,7 +29,7 @@ If you are are a ros2 newbie: the URDF file is loaded and published via `robot_s
 ros2 launch irb_sim coppelia_parallel_launch.py
 ```
 
-<img src="" />
+<img src="https://github.com/mora200217/abb_irb140_ros2/blob/dev/docs/ros2-abb-irb140-coppelia.gif" />
 
 
 
