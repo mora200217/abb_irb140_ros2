@@ -11,7 +11,8 @@ def generate_launch_description():
         Node(
             package='joint_state_publisher',
             executable='joint_state_publisher',
-            name='joint_state_publisher'
+            name='joint_state_publisher',
+            parameters=[{"use_sim_time": True , "rate": 20}],
         ),
          Node(
             package='joint_state_publisher_gui',
@@ -22,7 +23,8 @@ def generate_launch_description():
             package="rviz2", 
             executable="rviz2",
             name="rviz",
-            arguments=["-d", os.path.join(get_package_share_directory('irb_description'), 'config', 'simple_robot.rviz')]
+            parameters=[{"use_sim_time": True , "rate": 20}],
+            arguments=["-d", os.path.join(get_package_share_directory('irb_description'), 'config', 'simple_robot.rviz'), "", ]
         )
     ])
 
