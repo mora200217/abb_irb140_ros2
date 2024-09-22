@@ -23,6 +23,15 @@ If you are are a ros2 newbie: the URDF file is loaded and published via `robot_s
 
 <img src="https://github.com/mora200217/abb_irb140_ros2/blob/dev/docs/irb_description_rviz_simple_launch_view.png"  alt="rviz2 ABB IRB 140 show"/>
 
+## irb_sim
+### Coppelia 
+```bash
+ros2 launch irb_sim coppelia_parallel_launch.py
+```
+
+<img src="" />
+
+
 
 
 
